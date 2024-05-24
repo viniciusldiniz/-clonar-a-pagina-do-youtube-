@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #fff9f9;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+input {
+    width:600px;
+    height: 38px;
+    border: 1px solid #CCCCCC;
+    margin-right: 50px;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+button.procurar {
+    height: 40px;
+    width: 58px;
+    border: 1px solid #CCCCCC;
+    position: relative;
+    top: 5px;
+    right: 53px;
+    border-radius: 0 20px 20px 0;
+    padding-right: 12px;
+
+}
+.titulo-video{
+    margin-top: 20px;
+    margin-left: -150px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.header {
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    align-content: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.menu-1 {
+    width: 300px;
+    height: 34px;
+    margin-left: 20px;
+}
+
+.menu-2 {
+    align-content: center;
+    height: 60px;
+}
+
+.menu-3 {
+    width: 200px;
+    height: 50px;
+
+}
+.has{
+color: blue !important; 
+
+}
+
+.item {
+    margin-right: 8px;
+}
+.video-player {
+    margin: 25px 0px 0px 350px;
+    width: 980px;
+    height: 520px;
+    object-fit: cover;
+    border: 0.1px solid #00000080;  
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    left: 88px;
+
+}
+
+section {
+    display: inline-block;
+}
+
+img.logo-canal {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 110px;
+    position: relative;
+    top: 3px;
+}
+
+div.video-extra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 35px;
+    right: 25px;
+}
+
+#container-1 {
+    margin: 25px 59px 5px 270px;
+    vertical-align: middle;
+}
+
+#container-2 {
+    margin: 5px 35px 5px 0;
+}
+
+code.canal {
+    height: 42px;
+    font-size: 16px;
+    position: relative;
+    bottom: 21px;
+    font-weight: 700;
+}
+
+button.subscribe {
+    width: 130px;
+    height: 38px;
+    color: #fff;
+    background-color: red;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    position: relative;
+    bottom: 13px;
+    font-weight: 500;
+    font-size: 15px;
+    right: 40px;
+
+}
+
+div span {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+span.description-like {
+    position: relative;
+    bottom: 15px;
+    right: 40px;
+
+}
+
+span.description-dislike {
+    position: relative;
+    right: 17px;
+    bottom: 15px;
+
+}
+
+span.description-share {
+    position: relative;
+    bottom: 15px;
+
+}
+
+span.description-download {
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+
+}
+
+#like {
+    position: relative;
+    right: 45px;
+    bottom: 5px;
+}
+
+#dislike {
+    position: relative;
+    right: 23px;
+    bottom: 5px;
+}
+
+#share {
+    position: relative;
+    bottom: 6px;
+    right: 7px;
+}
+
+#download {
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+
+}
+
+.inscritos {
+    position: relative;
+    right: 95px;
+    bottom: 3px;
+    font-size: 12px;
+    color: #515151;
+}
+
+.video-description {
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+    width: 970px;
+    height: auto;
+  background-color: #CCCCCC;
+    padding: 5px 15px;
+    border-radius: 20px;
+    white-space: pre;
+    
+}
+
+p.description {
+    position: relative;
+    bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span.description {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p.description-2 {
+    position: relative;
+    bottom: 100px;
+    font-size: 15px;
+    margin-left: -72px;
+   
+}
+
+.menu-lateral {
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+
+}
+
+div.video-recomendado {
+    height: 130px;  
+    
+    margin-left: -125px;    
+}
+
+div.video-recomendado img {
+    border-radius: 10px;
+    margin: 1px;
+
+}
+
+.data-duration {
+    width: 40px;
+    background-color: #000000;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #FFF;
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+    text-align: center;
+    padding: 2px 4px;
+}
+
+.titulo {
+    font-size: 14px;
+    width: 250px;
+    height: 50px;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    margin: 0px 0px 5px 35px;
+    position: relative;
+    bottom: 95px;
+    left: 175px;
+}
+
+.canal-nome {
+    width: 200px;
+    position: relative;
+    bottom: 104px;
+    left: 175px;
+    font-size: 13px;
+    color: #00000090;
+    font-weight: 500;
+    margin: 0px 0px 5px 35px;
+}
+
+.recomendado-description {
+    width: 200px;
+    position: relative;
+    bottom: 113px;
+    left: 176px;
+    font-size: 12px;
+    color: #00000090;
+    font-weight: 500;
+    margin: 10px 0px 5px 35px;
+}
